@@ -86,7 +86,7 @@
 	BEGIN
 		PRINT 'A new record has been inserted into the Jomato table.';
 	END;
-
+    -- Test the transaction
 	INSERT INTO Jomato (
 		OrderId,
 		RestaurantName,

@@ -99,14 +99,14 @@ use assignments
 
 
 
-SELECT * from Salesman UNION SELECT * from Customer
+	SELECT * from Salesman UNION SELECT * from Customer
 
 
-SELECT SalesmanId, Name
-FROM   Salesman
-INTERSECT 
-SELECT SalesmanId, CustomerName
-FROM   Customer
+	SELECT SalesmanId, Name
+	FROM   Salesman
+	INTERSECT 
+	SELECT SalesmanId, CustomerName
+	FROM   Customer
 
 
 

@@ -1,0 +1,10 @@
+python/myenv
+*.zip
+*.pdf
+
+
+# Ignore any folder named venv or .venv at any level
+venv/
+.venv/
+**/venv/
+**/.venv/

@@ -200,5 +200,5 @@ select * from fact;
 
 	DELETE FROM Product WHERE Type = 'Regular';
 
--- 29.Display the ASCII value of the fifth character from the columnProduct.
+-- 29.Display the ASCII value of the fifth character from the column Product.
 	SELECT  ProductId, Product, ASCII(SUBSTRING(Product, 5, 1)) AS Fifth_Char_ASCII FROM  Product;
